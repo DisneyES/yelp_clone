@@ -1,0 +1,20 @@
+.header {
+    padding: 20px;
+}
+
+.circleSubmit {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #5bc0de;
+    background: #5bc0de;
+    outline: none;
+    color: #fff;
+    font-size: 54px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    &:hover {
+        opacity: 0.8;
+    }
+}
