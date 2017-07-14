@@ -1,5 +1,4 @@
 import React from 'react';
-import Counter from '../containers/counter';
 import Search from './SearchBussines';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import BussinesList from './BussinesList';

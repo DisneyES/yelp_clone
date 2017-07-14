@@ -12,7 +12,7 @@ class Search extends Component {
         this.onInputChange = this.onInputChange.bind(this);
         this.onFormSubmit = this.onFormSubmit.bind(this);
         this.getCurrentLocation = this.getCurrentLocation.bind(this);
-        
+
     }
 
     onInputChange(event) {
@@ -65,8 +65,8 @@ class Search extends Component {
                         </div>
                     </div>
                     <div className="col-md-12 text-center">
-                        <button 
-                            type="submit" 
+                        <button
+                            type="submit"
                             className={`${styles.circleSubmit}`}
                         >
                             Find.
